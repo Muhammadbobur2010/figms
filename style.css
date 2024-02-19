@@ -1,0 +1,168 @@
+nav{
+    background-color: #014E56;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.left{
+    display: flex;
+    justify-content: space-around;
+    width: 400px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.btn{
+    border-radius: 50px;
+    border: 1px solid white;
+    background: none;
+    color: white;
+    width: 143px;
+    height: 38px;
+}
+.section1{
+background-color:#014E56 ;
+padding-top: 100px;
+color: white;
+display: flex;
+justify-content: space-between;
+width: 100%;
+align-items: center;
+}
+.section1 p{
+    width: 630px;
+}
+.sss{
+   width: 10%;
+}
+.ddd{
+ font-weight:900;
+ font-size: 50px;
+
+}
+.section2{
+     background-color: #004047;
+     padding-top: 100px;
+      color: white;
+      height: 600px;
+}
+.zzz{
+   margin-bottom: 100px;
+   display: flex;
+   justify-content: center;
+   font-size: 50px;
+}
+.card{
+    display: flex;justify-content: space-around;
+}
+.section3{
+    background-color:#012F34 ;
+    padding-top: 50px;
+    color: white;
+    height: 300px;
+    Width:1430px;
+    Height:355.66px;
+}
+.aaa{
+    width: 184px;
+    height: 18.72px;
+}
+.kard{
+    display: flex;
+    justify-content: space-around;
+  
+}
+.section4{
+    background-color: #F67E7E;
+    color: #012F34;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.qqq{
+    font-size: 50px;
+}
+.btn2{
+    border-radius: 50px;
+    border: black solid 1px;
+    width: 153px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: none;
+    color: #012F34;
+
+}
+footer{
+    background-color: #002529;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 106px;
+}
+.imigas{
+    display: none;
+}
+.kard div{
+    height: 50px;
+}
+.section3{
+    height: 500px;
+}
+.section4{
+    height: 300px;
+}
+.otasi{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    Width:1110px;
+    Height:100px;
+}
+@media(max-width:768px){
+    .imigas{
+        display: block;
+    }
+    .card{
+        flex-wrap: wrap;
+    }
+    .section1{
+        flex-direction: column;
+    }
+    .section2{
+        flex-direction: column;
+        height: 1200px;
+    }
+    .section2{
+        flex-direction: column;
+ 
+    }
+    .section3{
+        flex-direction: column;
+    }
+    .kard{
+        flex-wrap: wrap;
+      
+    }
+    .section4{
+        flex-wrap: wrap;
+    }
+    footer{
+        flex-wrap: wrap;
+    }
+    .ttt{
+        display: none;
+    }
+    .btn{
+        display: none;
+    }
+    .icon{
+        display: flex;
+        justify-content: center;
+      margin-right: 10px;
+    }
+}
